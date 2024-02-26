@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLE FILE -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- TAB ICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <span class="heading">Your Result</span>
+        <div class="static">76</div>
+        <span class="state">Great</span>
+        <p class="text">
+          You scored higher than 65% of the people who have taken thes tests.
+        </p>
+      </div>
+      <div class="summary">
+        <span class="heading">Summary</span>
+        <ul>
+          <li style="background-color: rgba(255, 87, 87, 0.1);">
+            <span style="color: hsl(0, 100%, 67%)">
+              <img src="./Images/icon-reaction.svg" alt="" />
+              Reaction
+            </span>
+            <span class="progress">80 <span class="of">/ 100</span></span>
+          </li>
+
+          <li style="background-color: rgba(255, 177, 31, 0.1);">
+            <span style="color: hsl(39, 100%, 56%)">
+              <img src="./Images/icon-memory.svg" alt="" />
+              Memory
+            </span>
+            <span class="progress">92 <span class="of">/ 100</span></span>
+          </li>
+
+          <li style="background-color: rgba(0, 189, 145, 0.1);">
+            <span style="color: hsl(166, 100%, 37%)">
+              <img src="./Images/icon-verbal.svg" alt="" />
+              Verbal
+            </span>
+            <span class="progress">61 <span class="of">/ 100</span></span>
+          </li>
+
+          <li style="background-color: rgba(17, 36, 212, 0.1);">
+            <span style="color: hsl(234, 85%, 45%)">
+              <img src="./Images/icon-visual.svg" alt="" />
+              Visual
+            </span>
+            <span class="progress">72 <span class="of">/ 100</span></span>
+          </li>
+        </ul>
+        <a href="#">Continue</a>
+      </div>
+    </div>
+  </body>
+</html>
